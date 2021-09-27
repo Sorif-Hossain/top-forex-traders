@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.header-tittle {
+  color: #802c6e;
+}
+.main-container {
+  margin: 2.5%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 10px;
+}
+.btn-add {
+  background: #802c6e;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.card {
+  background: #f2f2f2;
+  border-radius: 15px;
+  border: 1px solid rgba(129, 44, 111, 0.3);
+}
+.card h4 {
+  color: #802c6e;
+}
+.card-container img {
+  width: 150px;
+  height: 150px;
+  margin-top: 22px;
+}
+.bt-icon {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: text-bottom;
+}
+.main-cart {
+  border: 1px solid rgba(25, 135, 84, 0.3);
+  padding: 10px 30px;
+  background: ghostwhite;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px lightgray;
+}
+.main-cart h2,
+h3,
+h4 {
+  color: #198754;
+}
